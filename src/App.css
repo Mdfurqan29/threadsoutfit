@@ -1,0 +1,27 @@
+/* Countdown.css */
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 15px;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+  }
+  
