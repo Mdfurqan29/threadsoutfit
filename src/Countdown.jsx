@@ -49,26 +49,32 @@ const Countdown = () => {
   });
 
   return (
+    <>
     <div className="countdown-container">
+    <div className="logo-container">
+        <img src="./logo.png" alt="Logo" className="logo" />
+      </div>
+
       <h1>Coming Soon...</h1>
       <div className="timer">
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
       </div>
       <div className="social-icons">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <FaFacebook size={40} />
+        <a href="https://facebook.com/threadsoutfitt" target="_blank" rel="noopener noreferrer">
+          <FaFacebook size={30} />
         </a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <FaInstagram size={40} />
+        <a href="https://instagram.com/threadsoutfit_" target="_blank" rel="noopener noreferrer">
+          <FaInstagram size={30} />
         </a>
-        <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">
-          <FaTiktok size={40} />
+        <a href="https://www.tiktok.com/@threadsoutfit.com?_t=8pQHpvmPK5g&_r=1" target="_blank" rel="noopener noreferrer">
+          <FaTiktok size={30} />
         </a>
-        <a href="https://www.whatsapp.com" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp size={40} />
+        <a href="https://wa.me/923283578075" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp size={30} />
         </a>
       </div>
     </div>
+    </>
   );
 }
 
